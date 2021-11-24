@@ -162,7 +162,7 @@ class Game {// добавить количество зверушек и кус�
         var whantToGO = [];
         var tempI;
         var tempJ;
-        
+
         for (let i = 1; i < 10; i++) {
             tempI = this.tempIset(i, iX);
             tempJ = this.tempJset(i, jX);
@@ -188,7 +188,7 @@ class Game {// добавить количество зверушек и кус�
             var num = 5;
             var a = this.setstep(this.Animals[i].i, this.Animals[i].j, this.Animals[i].ID);
 
-            if (typeof a == "number") { num = a; } 
+            if (typeof a == "number") { num = a; }
             else
             if (a.length == 1) { num = a[0]; }
             else { //Если ход - стоять на месте (5)
@@ -315,5 +315,5 @@ console.log("'clg + Tab' запускает скрип консоллога");
 
 
 function growUp() {
-    
 }
+//test
